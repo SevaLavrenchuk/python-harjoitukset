@@ -15,3 +15,4 @@ while yritykset < 5:
 
 if yritykset == 5:
     print("Pääsy evätty")
+    
