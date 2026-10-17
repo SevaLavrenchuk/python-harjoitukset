@@ -1,0 +1,16 @@
+lista = ["maito", "leipä", "omena"]
+ostokset = input("Mitkä tuotteet pitää ostaa?")
+
+
+while lista:
+    if ostokset in lista:
+        print ("Löytyy listasta!")
+        lista.remove(ostokset)
+        print ("Meillä jäljellä: ", lista)
+    else: 
+        print ("Ei löydy listasta.")
+    ostokset = input("Mitkä tuotteet vielä puuttuvat?")
+    if not lista:
+        break
+
+print("Kaikki tuotteet ostettu!")
