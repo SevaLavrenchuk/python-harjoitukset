@@ -12,3 +12,5 @@ valmis
 valmis
 ## Kertaustehtävät 
 valmis
+## Moduuli 6
+valmis
